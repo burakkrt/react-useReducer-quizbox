@@ -1,0 +1,104 @@
+{
+  "sorular": [
+    {
+      "soru": "Osmanlı İmparatorluğu'nun başkenti neresidir?",
+      "cevaplar": [
+        "Ankara",
+        "İstanbul",
+        "Bursa",
+        "İzmir"
+      ],
+      "dogru_cevap": "İstanbul"
+    },
+    {
+      "soru": "İlk yazılı anayasa hangi ülke tarafından kabul edilmiştir?",
+      "cevaplar": [
+        "Amerika Birleşik Devletleri",
+        "Fransa",
+        "İngiltere",
+        "Almanya"
+      ],
+      "dogru_cevap": "Amerika Birleşik Devletleri"
+    },
+    {
+      "soru": "Hangi yılnda Türkiye Cumhuriyeti kurulmuştur?",
+      "cevaplar": [
+        "1920",
+        "1922",
+        "1923",
+        "1925"
+      ],
+      "dogru_cevap": "1923"
+    },
+    {
+      "soru": "İkinci Dünya Savaşı hangi yıllar arasında gerçekleşmiştir?",
+      "cevaplar": [
+        "1939-1942",
+        "1940-1943",
+        "1939-1945",
+        "1941-1946"
+      ],
+      "dogru_cevap": "1939-1945"
+    },
+    {
+      "soru": "Fransız Devrimi hangi yıllar arasında gerçekleşmiştir?",
+      "cevaplar": [
+        "1776-1781",
+        "1789-1799",
+        "1800-1805",
+        "1815-1820"
+      ],
+      "dogru_cevap": "1789-1799"
+    },
+    {
+      "soru": "Hangi tarihte Berlin Duvarı yıkılmıştır?",
+      "cevaplar": [
+        "1987",
+        "1989",
+        "1991",
+        "1993"
+      ],
+      "dogru_cevap": "1989"
+    },
+    {
+      "soru": "Hangi yılda Amerika Birleşik Devletleri bağımsızlığını ilan etmiştir?",
+      "cevaplar": [
+        "1776",
+        "1783",
+        "1791",
+        "1804"
+      ],
+      "dogru_cevap": "1776"
+    },
+    {
+      "soru": "Birinci Dünya Savaşı hangi yıllar arasında gerçekleşmiştir?",
+      "cevaplar": [
+        "1912-1917",
+        "1914-1918",
+        "1916-1920",
+        "1918-1923"
+      ],
+      "dogru_cevap": "1914-1918"
+    },
+    {
+      "soru": "Nelson Mandela'nın özgürlüğe kavuştuğu yıl hangisidir?",
+      "cevaplar": [
+        "1989",
+        "1990",
+        "1993",
+        "1994"
+      ],
+      "dogru_cevap": "1990"
+    },
+    {
+      "soru": "Hangi yıl Leonardo da Vinci Mona Lisa'yı resmetmiştir?",
+      "cevaplar": [
+        "1483",
+        "1506",
+        "1520",
+        "1552"
+      ],
+      "dogru_cevap": "1506"
+    }
+  ]
+}
