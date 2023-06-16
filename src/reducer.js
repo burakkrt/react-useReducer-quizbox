@@ -8,7 +8,9 @@ export const reducer = (state, action) => {
         case "CORRECT_ANSWER":
             return {...state, correctAnswer: state.correctAnswer + 1};
         case "NEXTBTN_UPDATE":
-            return {...state, nextQuestBtn: !state.nextQuestBtn}
+            return {...state, nextQuestBtn: !state.nextQuestBtn};
+        case "RESTART":
+            return {soruNo: 1, correctAnswer: 0, wrongAnswer: 0, nextQuestBtn: true}
         default:
             return state;
     }

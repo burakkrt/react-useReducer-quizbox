@@ -3,6 +3,7 @@ import {reducer} from "./reducer";
 import QuestData from './questionsData.json'
 import Question from './Quesiton';
 import questionData from './questionsData.json';
+import Results from './Results';
 
 const initialState = {
     soruNo: 1,
@@ -37,12 +38,19 @@ function App() {
             btn.disabled = false;
             btn.className = "answer btn btn-outline-dark text-start"
         })
+
         soruNoCount();
         nextBtn();
     }
 
+    function restartQuestions() {
+        dispatch({type: "RESTART"});
+
+    }
+
     return (
-        <div className="bg-secondary-subtle p-5 rounded shadow-lg border border-2 border-secondary">
+        <div className="bg-secondary-subtle p-5 rounded shadow-lg border border-2 border-secondary"
+             style={{width: "600px"}}>
             {state.soruNo <= questionData.sorular.length ?
                 <Fragment>
                     <Question soruNoCount={soruNoCount} wrongAnswer={wrongAnswer} correctAnswer={correctAnswer}
@@ -60,7 +68,7 @@ function App() {
                         <span>Yanlış Cevap : <strong>{state.wrongAnswer}</strong></span>
                     </div>
                 </Fragment>
-                : console.log("das")}
+                : <Results state={state} res={restartQuestions}/>}
         </div>
     );
 }
