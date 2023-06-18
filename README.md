@@ -1,6 +1,45 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-useReducer-quizbox
+
+
+
+[**Go Live**](https://react-usereducer.netlify.app)
+
+## Technologies used and dependencies
+
+- [**bootstrap@5.3.0**](https://getbootstrap.com)
+- [**react@18.2.0**](https://styled-components.com)
+- [**react-dom@18.2.0**](https://styled-components.com)
+- [**react-scripts@5.0.1**](https://styled-components.com)
+- [**web-vitals@2.1.4**](https://styled-components.com)
+
+## Run it on your computer
+
+
+```bash
+  git clone https://github.com/burakkrt/react-useReducer-quizbox.git
+```
+
+Go to the project directory
+
+```bash
+  cd react-useReducer-quizbox
+```
+
+Install required packages
+
+```bash
+  npm install
+```
+
+Run the server
+
+```bash
+  npm run start
+```
+
+  
+## Additional info for React app
 
 ## Available Scripts
 
@@ -68,3 +107,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+  
